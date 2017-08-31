@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'MRARViewDebugger_Example' do
+  pod 'MRARViewDebugger', :path => '../'
+
+  target 'MRARViewDebugger_Tests' do
+    inherit! :search_paths
+
+
+  end
+end

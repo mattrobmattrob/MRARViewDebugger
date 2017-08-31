@@ -1,0 +1,6 @@
+framework module MRARViewDebugger {
+  umbrella header "MRARViewDebugger-umbrella.h"
+
+  export *
+  module * { export * }
+}

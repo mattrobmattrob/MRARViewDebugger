@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BEBE5BC2463E6B7E1D8BF503003D1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C206A1BF2C43F46B20D2187AED9BE4E /* UIKit.framework */; };
+		19DEA76B109690116064724DF3773F13 /* Pods-MRARViewDebugger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BABCDB7BBF5D9A3639BFEC4840F142 /* Pods-MRARViewDebugger_Example-dummy.m */; };
+		1BA431B26D4075A3D38562DC0EB27124 /* Pods-MRARViewDebugger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A7B75404D1C42C2AB246CE73FFF359 /* Pods-MRARViewDebugger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50916FBC6BF37E42971F84774DE08E55 /* Pods-MRARViewDebugger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98844C0DCAFC8DB2C6F49F3933C5C4D6 /* Pods-MRARViewDebugger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C600AB6D1481612F7D6B3B56E9D1489 /* MRARViewDebugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 105A6347A0B84FFF568B325132A48963 /* MRARViewDebugger-dummy.m */; };
+		6DCBDEE952F1F269115A99E7B6FE9926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D86E68E0E58F83E50F7D965AE4C7 /* Foundation.framework */; };
+		7FADF8AA023E2007451FF6F0BC41033F /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F55C7CA6F3EDE83666D15FD82ADB21 /* ARKit.framework */; };
+		89CD25DD2D87E7BC1135CBE86BB1DEB0 /* MRARViewDebugger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D020000D5F07876289452685250351BD /* MRARViewDebugger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DE640A362527386AAA0AFB09CB0F099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D86E68E0E58F83E50F7D965AE4C7 /* Foundation.framework */; };
+		9FD4A394165EDE35103B166433502525 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5085EC4864782841FEDBA008D604E18C /* SceneKit.framework */; };
+		BC30EB474ED5F6D925D14A19E5859734 /* MRARViewDebuggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B9AF492E09A22BE2993287E66E220F /* MRARViewDebuggerViewController.swift */; };
+		C0EC8CEF9549289ED06867E631D2F60A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D86E68E0E58F83E50F7D965AE4C7 /* Foundation.framework */; };
+		CB6FEF594E107B6423E893B5A1611BC2 /* Pods-MRARViewDebugger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7B8C2C0F4AEABB8A6EC38023D3BA64 /* Pods-MRARViewDebugger_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CC379296A98AF47CEF114BB931FF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEA881A0374DE687527D4DD2C289709;
+			remoteInfo = MRARViewDebugger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085F093260BEFFD6279E1CFC72301F73 /* Pods-MRARViewDebugger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MRARViewDebugger_Tests.modulemap"; sourceTree = "<group>"; };
+		08A7B75404D1C42C2AB246CE73FFF359 /* Pods-MRARViewDebugger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRARViewDebugger_Example-umbrella.h"; sourceTree = "<group>"; };
+		0C206A1BF2C43F46B20D2187AED9BE4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		105A6347A0B84FFF568B325132A48963 /* MRARViewDebugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRARViewDebugger-dummy.m"; sourceTree = "<group>"; };
+		19C8D3A6A0571A97BF368DE8ADB507CE /* MRARViewDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRARViewDebugger.framework; path = MRARViewDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A37974FA3ABAAE739F0DC581BD24F32 /* Pods-MRARViewDebugger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRARViewDebugger_Tests-resources.sh"; sourceTree = "<group>"; };
+		317ECF8057C54CDC17DF6F9D7BBE00A0 /* Pods-MRARViewDebugger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRARViewDebugger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3417988D914DEF4EF408C18AF8948D56 /* Pods-MRARViewDebugger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRARViewDebugger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		391B61E1B19FA0A60742D7E29EF41404 /* MRARViewDebugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRARViewDebugger-prefix.pch"; sourceTree = "<group>"; };
+		4928D86E68E0E58F83E50F7D965AE4C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5085EC4864782841FEDBA008D604E18C /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		553FCB13B52F461818C5123342421B70 /* Pods-MRARViewDebugger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRARViewDebugger_Example-resources.sh"; sourceTree = "<group>"; };
+		564DED0C8F22E5BDCC4F152475B22072 /* Pods-MRARViewDebugger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MRARViewDebugger_Example.modulemap"; sourceTree = "<group>"; };
+		56B9AF492E09A22BE2993287E66E220F /* MRARViewDebuggerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRARViewDebuggerViewController.swift; path = MRARViewDebugger/Classes/MRARViewDebuggerViewController.swift; sourceTree = "<group>"; };
+		60C49149E44164A45689E2CA973CCBA6 /* Pods-MRARViewDebugger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRARViewDebugger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74BABCDB7BBF5D9A3639BFEC4840F142 /* Pods-MRARViewDebugger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRARViewDebugger_Example-dummy.m"; sourceTree = "<group>"; };
+		76F3C1EDB24E391FF879DF9ED137B083 /* Pods-MRARViewDebugger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRARViewDebugger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A8F376708530D7E727DB4EFD910C091 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8846447470C79EF91C7362210A952EAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA22052B041D2D9BD4E084D3E6BA052 /* Pods-MRARViewDebugger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRARViewDebugger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FBE83E38347A5CDF24B51E33A070C17 /* Pods_MRARViewDebugger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRARViewDebugger_Tests.framework; path = "Pods-MRARViewDebugger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934E1F762FAB8131B54CA40DF09E24ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98844C0DCAFC8DB2C6F49F3933C5C4D6 /* Pods-MRARViewDebugger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRARViewDebugger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9E07FA8CE9D229E0DC8398ABC3179631 /* Pods-MRARViewDebugger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRARViewDebugger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0094A9089B403B57A535CE150405415 /* Pods_MRARViewDebugger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRARViewDebugger_Example.framework; path = "Pods-MRARViewDebugger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A485364520522DE015137E2B0B0489E6 /* Pods-MRARViewDebugger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRARViewDebugger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC3B2F7A735677314C99A9359B7C9B36 /* MRARViewDebugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MRARViewDebugger.modulemap; sourceTree = "<group>"; };
+		BE99DC4FCDB1389D5E2EBF41BD7799F4 /* Pods-MRARViewDebugger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRARViewDebugger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE7B8C2C0F4AEABB8A6EC38023D3BA64 /* Pods-MRARViewDebugger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRARViewDebugger_Tests-dummy.m"; sourceTree = "<group>"; };
+		CF5C8C3460266CFA26BB42C11B00D340 /* Pods-MRARViewDebugger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRARViewDebugger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D020000D5F07876289452685250351BD /* MRARViewDebugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRARViewDebugger-umbrella.h"; sourceTree = "<group>"; };
+		E7F55C7CA6F3EDE83666D15FD82ADB21 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0065D9B50262D9154BD7E94F2C2B0C1 /* Pods-MRARViewDebugger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRARViewDebugger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB7F1427D2305C396291B18A546D66EC /* MRARViewDebugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRARViewDebugger.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CEF3724231341FCD37A538D8C59880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EC8CEF9549289ED06867E631D2F60A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4857128878BC618E4D508F321CDF7FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE640A362527386AAA0AFB09CB0F099 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09A0428C472A19913B175787C7477D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FADF8AA023E2007451FF6F0BC41033F /* ARKit.framework in Frameworks */,
+				6DCBDEE952F1F269115A99E7B6FE9926 /* Foundation.framework in Frameworks */,
+				9FD4A394165EDE35103B166433502525 /* SceneKit.framework in Frameworks */,
+				03BEBE5BC2463E6B7E1D8BF503003D1C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219BA8BA9BAD1713D1F242E0A074C21B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219BA8BA9BAD1713D1F242E0A074C21B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7F55C7CA6F3EDE83666D15FD82ADB21 /* ARKit.framework */,
+				4928D86E68E0E58F83E50F7D965AE4C7 /* Foundation.framework */,
+				5085EC4864782841FEDBA008D604E18C /* SceneKit.framework */,
+				0C206A1BF2C43F46B20D2187AED9BE4E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3DE94936A014D2CF9E60D4BEEEE89F28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D4FB8A21D17D0584D28A21F93EDFB2 /* Pods-MRARViewDebugger_Example */,
+				8D03808359B20113A3B37885BDBCCAF5 /* Pods-MRARViewDebugger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D17FA301468A16193D48E91A8CD6789 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3733EEFEC8B981B5B470D2CBBE5984A /* MRARViewDebugger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7D17FA301468A16193D48E91A8CD6789 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				A6C8667EDD9DA39C6545DFCC590C5DD4 /* Products */,
+				3DE94936A014D2CF9E60D4BEEEE89F28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D03808359B20113A3B37885BDBCCAF5 /* Pods-MRARViewDebugger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A8F376708530D7E727DB4EFD910C091 /* Info.plist */,
+				085F093260BEFFD6279E1CFC72301F73 /* Pods-MRARViewDebugger_Tests.modulemap */,
+				76F3C1EDB24E391FF879DF9ED137B083 /* Pods-MRARViewDebugger_Tests-acknowledgements.markdown */,
+				F0065D9B50262D9154BD7E94F2C2B0C1 /* Pods-MRARViewDebugger_Tests-acknowledgements.plist */,
+				CE7B8C2C0F4AEABB8A6EC38023D3BA64 /* Pods-MRARViewDebugger_Tests-dummy.m */,
+				CF5C8C3460266CFA26BB42C11B00D340 /* Pods-MRARViewDebugger_Tests-frameworks.sh */,
+				1A37974FA3ABAAE739F0DC581BD24F32 /* Pods-MRARViewDebugger_Tests-resources.sh */,
+				98844C0DCAFC8DB2C6F49F3933C5C4D6 /* Pods-MRARViewDebugger_Tests-umbrella.h */,
+				8CA22052B041D2D9BD4E084D3E6BA052 /* Pods-MRARViewDebugger_Tests.debug.xcconfig */,
+				317ECF8057C54CDC17DF6F9D7BBE00A0 /* Pods-MRARViewDebugger_Tests.release.xcconfig */,
+			);
+			name = "Pods-MRARViewDebugger_Tests";
+			path = "Target Support Files/Pods-MRARViewDebugger_Tests";
+			sourceTree = "<group>";
+		};
+		92D4FB8A21D17D0584D28A21F93EDFB2 /* Pods-MRARViewDebugger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8846447470C79EF91C7362210A952EAB /* Info.plist */,
+				564DED0C8F22E5BDCC4F152475B22072 /* Pods-MRARViewDebugger_Example.modulemap */,
+				9E07FA8CE9D229E0DC8398ABC3179631 /* Pods-MRARViewDebugger_Example-acknowledgements.markdown */,
+				A485364520522DE015137E2B0B0489E6 /* Pods-MRARViewDebugger_Example-acknowledgements.plist */,
+				74BABCDB7BBF5D9A3639BFEC4840F142 /* Pods-MRARViewDebugger_Example-dummy.m */,
+				3417988D914DEF4EF408C18AF8948D56 /* Pods-MRARViewDebugger_Example-frameworks.sh */,
+				553FCB13B52F461818C5123342421B70 /* Pods-MRARViewDebugger_Example-resources.sh */,
+				08A7B75404D1C42C2AB246CE73FFF359 /* Pods-MRARViewDebugger_Example-umbrella.h */,
+				60C49149E44164A45689E2CA973CCBA6 /* Pods-MRARViewDebugger_Example.debug.xcconfig */,
+				BE99DC4FCDB1389D5E2EBF41BD7799F4 /* Pods-MRARViewDebugger_Example.release.xcconfig */,
+			);
+			name = "Pods-MRARViewDebugger_Example";
+			path = "Target Support Files/Pods-MRARViewDebugger_Example";
+			sourceTree = "<group>";
+		};
+		A6C8667EDD9DA39C6545DFCC590C5DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C8D3A6A0571A97BF368DE8ADB507CE /* MRARViewDebugger.framework */,
+				A0094A9089B403B57A535CE150405415 /* Pods_MRARViewDebugger_Example.framework */,
+				8FBE83E38347A5CDF24B51E33A070C17 /* Pods_MRARViewDebugger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3733EEFEC8B981B5B470D2CBBE5984A /* MRARViewDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				56B9AF492E09A22BE2993287E66E220F /* MRARViewDebuggerViewController.swift */,
+				CE4E848CF3BF4C400D704C5F58C9DC4E /* Support Files */,
+			);
+			name = MRARViewDebugger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE4E848CF3BF4C400D704C5F58C9DC4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				934E1F762FAB8131B54CA40DF09E24ED /* Info.plist */,
+				BC3B2F7A735677314C99A9359B7C9B36 /* MRARViewDebugger.modulemap */,
+				FB7F1427D2305C396291B18A546D66EC /* MRARViewDebugger.xcconfig */,
+				105A6347A0B84FFF568B325132A48963 /* MRARViewDebugger-dummy.m */,
+				391B61E1B19FA0A60742D7E29EF41404 /* MRARViewDebugger-prefix.pch */,
+				D020000D5F07876289452685250351BD /* MRARViewDebugger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MRARViewDebugger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		365EFACA67675DF15293CDCC9918F863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA431B26D4075A3D38562DC0EB27124 /* Pods-MRARViewDebugger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED194553F492FEDC52D71F808596E48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50916FBC6BF37E42971F84774DE08E55 /* Pods-MRARViewDebugger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC6B865AF72EC37B44B29F7981AFDDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CD25DD2D87E7BC1135CBE86BB1DEB0 /* MRARViewDebugger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EEA881A0374DE687527D4DD2C289709 /* MRARViewDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5D65103D999B1AFFCF28FFAFC89F54 /* Build configuration list for PBXNativeTarget "MRARViewDebugger" */;
+			buildPhases = (
+				B2D1C2D19E6D62A746F0E1B978DB448C /* Sources */,
+				E09A0428C472A19913B175787C7477D0 /* Frameworks */,
+				EDC6B865AF72EC37B44B29F7981AFDDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRARViewDebugger;
+			productName = MRARViewDebugger;
+			productReference = 19C8D3A6A0571A97BF368DE8ADB507CE /* MRARViewDebugger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		775678983C8374F9B72CF108AE571D4A /* Pods-MRARViewDebugger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F45A1D5904F275EBEB92BCFA4606EB /* Build configuration list for PBXNativeTarget "Pods-MRARViewDebugger_Tests" */;
+			buildPhases = (
+				57800F18B5B0CB36187671E4C4B04DB9 /* Sources */,
+				15CEF3724231341FCD37A538D8C59880 /* Frameworks */,
+				8ED194553F492FEDC52D71F808596E48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MRARViewDebugger_Tests";
+			productName = "Pods-MRARViewDebugger_Tests";
+			productReference = 8FBE83E38347A5CDF24B51E33A070C17 /* Pods_MRARViewDebugger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B977D509E75BFB6419AAD5AA530529D1 /* Pods-MRARViewDebugger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493165ABA63107E60115358DC4E0E003 /* Build configuration list for PBXNativeTarget "Pods-MRARViewDebugger_Example" */;
+			buildPhases = (
+				2495919AB716E280324E5369135761B3 /* Sources */,
+				4857128878BC618E4D508F321CDF7FDC /* Frameworks */,
+				365EFACA67675DF15293CDCC9918F863 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2E6D9B5DDE9E3381C9A898286AC05D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MRARViewDebugger_Example";
+			productName = "Pods-MRARViewDebugger_Example";
+			productReference = A0094A9089B403B57A535CE150405415 /* Pods_MRARViewDebugger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6C8667EDD9DA39C6545DFCC590C5DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EEA881A0374DE687527D4DD2C289709 /* MRARViewDebugger */,
+				B977D509E75BFB6419AAD5AA530529D1 /* Pods-MRARViewDebugger_Example */,
+				775678983C8374F9B72CF108AE571D4A /* Pods-MRARViewDebugger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2495919AB716E280324E5369135761B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEA76B109690116064724DF3773F13 /* Pods-MRARViewDebugger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57800F18B5B0CB36187671E4C4B04DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FEF594E107B6423E893B5A1611BC2 /* Pods-MRARViewDebugger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D1C2D19E6D62A746F0E1B978DB448C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C600AB6D1481612F7D6B3B56E9D1489 /* MRARViewDebugger-dummy.m in Sources */,
+				BC30EB474ED5F6D925D14A19E5859734 /* MRARViewDebuggerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2E6D9B5DDE9E3381C9A898286AC05D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRARViewDebugger;
+			target = 4EEA881A0374DE687527D4DD2C289709 /* MRARViewDebugger */;
+			targetProxy = F5CC379296A98AF47CEF114BB931FF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1967EDF759998E48A83E71D16430FCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE99DC4FCDB1389D5E2EBF41BD7799F4 /* Pods-MRARViewDebugger_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRARViewDebugger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRARViewDebugger_Example/Pods-MRARViewDebugger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRARViewDebugger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE7EDC2CDDA38E68D68B331169187BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C49149E44164A45689E2CA973CCBA6 /* Pods-MRARViewDebugger_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRARViewDebugger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRARViewDebugger_Example/Pods-MRARViewDebugger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRARViewDebugger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7483D0FB2D3DC9B7FB036665DBEDCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7F1427D2305C396291B18A546D66EC /* MRARViewDebugger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRARViewDebugger/MRARViewDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRARViewDebugger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRARViewDebugger/MRARViewDebugger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MRARViewDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8101E63E2A549C7677A5C14314F5776E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA22052B041D2D9BD4E084D3E6BA052 /* Pods-MRARViewDebugger_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRARViewDebugger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRARViewDebugger_Tests/Pods-MRARViewDebugger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRARViewDebugger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB3490D0B38C7B74BB867BBD73D059D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7F1427D2305C396291B18A546D66EC /* MRARViewDebugger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRARViewDebugger/MRARViewDebugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRARViewDebugger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRARViewDebugger/MRARViewDebugger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MRARViewDebugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7296AD6287BF0C2259F8EFB23CC87BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317ECF8057C54CDC17DF6F9D7BBE00A0 /* Pods-MRARViewDebugger_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRARViewDebugger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRARViewDebugger_Tests/Pods-MRARViewDebugger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRARViewDebugger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F45A1D5904F275EBEB92BCFA4606EB /* Build configuration list for PBXNativeTarget "Pods-MRARViewDebugger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8101E63E2A549C7677A5C14314F5776E /* Debug */,
+				E7296AD6287BF0C2259F8EFB23CC87BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493165ABA63107E60115358DC4E0E003 /* Build configuration list for PBXNativeTarget "Pods-MRARViewDebugger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE7EDC2CDDA38E68D68B331169187BC /* Debug */,
+				1967EDF759998E48A83E71D16430FCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5D65103D999B1AFFCF28FFAFC89F54 /* Build configuration list for PBXNativeTarget "MRARViewDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7483D0FB2D3DC9B7FB036665DBEDCDAA /* Debug */,
+				BB3490D0B38C7B74BB867BBD73D059D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
