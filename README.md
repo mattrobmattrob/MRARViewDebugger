@@ -9,8 +9,16 @@ MRARViewDebugger allows in place view hierarchy visualization of `UIViewControll
 The user is given the ability to separate layers by variable distances and scrub through the stack
 using a slider similar to what Apple provides in Xcode's built in view debugger.
 
+|View|Debugging 1|Debugging 2|
+|---|---|---|
+|![View](/Media/View.PNG?raw=true)|![View](/Media/View-Expanded-1.PNG?raw=true)|![View](/Media/View-Expanded-2.PNG?raw=true)|
+
 Debug your views on the device when something goes wrong vs. having to deal with reproducing and/or
 attaching to the process in Xcode.
+
+## Live using [Strava](https://blog.strava.com/careers/)
+
+<img src="/Media/View-AR.gif?raw=true" width="250">
 
 ## Requirements
 
