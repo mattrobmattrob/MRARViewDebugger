@@ -11,7 +11,7 @@ using a slider similar to what Apple provides in Xcode's built in view debugger.
 
 |View|Debugging 1|Debugging 2|
 |---|---|---|
-|![View](/Media/View.PNG?raw=true)|![View](/Media/View-Expanded-1.PNG?raw=true)|![View](/Media/View-Expanded-2.PNG?raw=true)|
+|<img src="/Media/View.PNG?raw=true" width="250">|<img src="/Media/View-Expanded-1.PNG?raw=true" width="250">|<img src="/Media/View-Expanded-2.PNG?raw=true" width="250">|
 
 Debug your views on the device when something goes wrong vs. having to deal with reproducing and/or
 attaching to the process in Xcode.
@@ -49,7 +49,7 @@ MRARViewDebuggerViewController *viewController = [[MRARViewDebuggerViewControlle
 
 ## Author
 
-@mattrobmattrob or [@m4ttrob](https://twitter.com/m4ttrob)
+[@m4ttrob](https://twitter.com/m4ttrob)
 
 ## License
 
