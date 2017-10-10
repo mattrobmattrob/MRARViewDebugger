@@ -18,6 +18,8 @@ attaching to the process in Xcode.
 
 ## Live using [Strava](https://blog.strava.com/careers/)
 
+https://twitter.com/m4ttrob/status/917635997613023232
+
 <img src="/Media/View-AR.gif?raw=true" width="250">
 
 ## Requirements
