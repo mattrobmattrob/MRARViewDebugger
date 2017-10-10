@@ -21,7 +21,9 @@ attaching to the process in Xcode.
                        DESC
 
   s.homepage         = 'https://github.com/mattrobmattrob/MRARViewDebugger'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = ['https://github.com/mattrobmattrob/MRARViewDebugger/raw/master/Media/View.PNG',
+                        'https://github.com/mattrobmattrob/MRARViewDebugger/raw/master/Media/View-Expanded-1.PNG',
+                        'https://github.com/mattrobmattrob/MRARViewDebugger/raw/master/Media/View-Expanded-2.PNG']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = '@mattrobmattrob'
   s.source           = { :git => 'https://github.com/mattrobmattrob/MRARViewDebugger.git', :tag => s.version.to_s }
